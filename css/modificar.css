@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-family: Arial, Helvetica;
+}
+.container > h3 {
+  margin: 25px;
+}
+.container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  width: 18em;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-submit {
+  outline: none;
+  border: none;
+  width: 7em;
+  font-size: 24px;
+  background-color: #333333;
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
+}
+.btn-submit:hover {
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+}

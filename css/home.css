@@ -1,0 +1,59 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10em;
+  padding: 8em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  border-radius: 10px;
+}
+.logo {
+  text-align: center;
+}
+.login {
+  width: 12em;
+  height: 8em;
+  margin: 2em;
+  padding: 2em;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #a4daeb;
+  color: black;
+}
+.register {
+  width: 12em;
+  height: 8em;
+  margin: 2em;
+  padding: 2em;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #41bbe8;
+  color: white;
+}
+.btn {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  width: 10em;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
